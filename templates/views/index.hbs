@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather!</p>
+        <form>
+        <input type="search" id="input-value" placeholder="Search country">
+        <button type="submit" id="form-submit">search</button>
+        </form>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+    </div>
+
+    {{>footer}}
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
